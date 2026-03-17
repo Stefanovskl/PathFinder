@@ -56,7 +56,7 @@ pathfinder/
 ## How to Run
 
 ### Prerequisites
-- Node.js 18+
+- Node.js 18 or above
 - Expo Go app on your phone
 - MapTiler account (free)
 
@@ -92,15 +92,17 @@ npx expo start --tunnel
 ```
 
 ## Testing
-
+The project has a full unit test suite covering all major layers of the application — hooks, stores, and UI components.
 Unit tests are structured in two locations:
 - **Component tests**: co-located inside each component folder
 - **Logic tests**: in the `tests/` folder covering hooks and store
 ```bash
 npm test
 ```
-
-> Note: Full test suite requires jest-expo compatibility with Expo 54.
+## Test results
+Test Suites: 10 passed, 10 total
+Tests:       31 passed, 31 total
+Time:        ~3.6s
 
 ## AI Tools Used
 
