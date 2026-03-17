@@ -2,10 +2,6 @@
 
 A React Native (Expo) mobile application for tracking physical movements in real-time, saving routes, and reviewing past activities.
 
-## Screenshots
-
-> Map Screen | Tracking | History | Detail View
-
 ## Features
 
 - 🗺️ Real-time dark map integration using MapTiler
